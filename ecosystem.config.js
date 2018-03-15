@@ -7,7 +7,7 @@ module.exports = {
 
     // First application
     {
-      name      : 'API',
+      name      : 'app',
       script    : 'app.js',
       env: {
         COMMON_VARIABLE: 'true'
@@ -19,7 +19,7 @@ module.exports = {
 
     // Second application
     {
-      name      : 'WEB',
+      name      : 'web',
       script    : 'web.js'
     }
   ],
